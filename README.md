@@ -21,11 +21,11 @@ The sandbox consists of ledger interfaces and infrastructure that various tech p
 ### Tracks
 
 
-1. **User Application**: The application layer provides the end user interface to the Finternet. It enables users with various workflows that can be performed across asset classes.
-2. **Token Manager Admin**: This is the application layer for the token manager to interface with the Finternet. It enables token managers with various workflows that can be performed on the assets issued by them
-3. **Authenticator wallet**: The auth wallet is the mechanism for users to securely store bearer keys and use them to sign transactions across Finternet applications
-4. **Unified Ledger**: The unified ledger is the interface to the ledger infra. It's an abstraction on top of the ledger specific infrastructure
-5. **Ledger Infra**: This is the immutable record keeping layer of the Finternet
+1. **User Application**: The application layer provides the end user interface to the Finternet. It enables users with various workflows that can be performed across asset classes. [Link to Repo](http://github.com/ChiragKV-Juspay/finternet-web)
+2. **Toke Manager Admin**: This is the application layer for the token manager to interface with the Finternet. It enables token managers with various workflows that can be performed on the assets issued by them.
+3. **Authenticator wallet**: The auth wallet is the mechanism for users to securely store bearer keys and use them to sign transactions across Finternet applications.
+4. **Unified Ledger**: The unified ledger is the interface to the ledger infra. It's an abstraction on top of the ledger specific infrastructure. [Link to Repo](https://github.com/NishantJoshi00/finternet-api)
+5. **Ledger Infra**: This is the immutable record keeping layer of the Finternet. [Link to Repo](https://github.com/abishekk92/finternet-sandbox)
 6. **Public Trust Registry**: This is a public registry of master data for trusted participants across the Finternet.
 7. **Contract Marketplace**: This is the smart contract marketplace for token managers to ease implementation of asset specific rules.
 
